@@ -1,0 +1,34 @@
+{
+	"name": "Max",
+	"value": 100,
+	"children":[
+	{
+		"name":"Sylvia",
+		"value": 20,
+		"children":[
+			{"name":"Craig","value": 6},
+			{"name":"Robin","value": 6},
+			{"name":"Robin","value": 8}
+	]
+	},
+	
+	{
+		"name": "David",
+		"value": 50,
+		"children": [
+			{"name":"Jeff","value": 10},
+			{"name":"Buffy","value": 10},
+			{"name":"Buffy","value": 10},
+			{"name":"Buffy","value": 10},
+			{"name":"Buffy","value": 10}
+		]
+	
+	},
+	
+	{
+		"name": "Mr X",
+		"value": 30
+	}
+	
+	]
+}
