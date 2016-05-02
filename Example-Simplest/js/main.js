@@ -4,11 +4,12 @@ var canvas = d3.select("body").append("svg")
 .attr("width",500)
 .attr("height",500);
 
-d3.json("data/data-ar.json", function(data){
+d3.json("data/data-easy.json", function(data){
 
 	//put data into treemap layout
 	var treemap = d3.layout.treemap()
 				.size([500, 500])
+				.ratio(1)
 				.nodes(data);
 				
 	//get cells from the layout

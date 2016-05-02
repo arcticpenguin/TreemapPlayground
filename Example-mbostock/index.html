@@ -41,6 +41,7 @@ var color = d3.scale.category20c();
 var treemap = d3.layout.treemap()
     .size([width, height])
     .sticky(true)
+    .ratio(1.5)
     .value(function(d) { return d.size; });
 
 var div = d3.select("body").append("div")
